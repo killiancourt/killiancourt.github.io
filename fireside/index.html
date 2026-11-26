@@ -100,7 +100,7 @@
       font-size: 1.3rem;
     }
   }
-</style> <div class="fireside-intro"> <p> An ongoing series of conversations with researchers, industry practitioners, and policymakers exploring the people, ideas, and technologies shaping the future of cybersecurity. </p> <p> From cryptography and artificial intelligence to digital trust and national security, Fireside Chats seeks to bridge technical knowledge with broader questions about technology and society. </p> </div> <div class="mb-3"> <button class="fireside-filter active" onclick="filterFireside('all', this)"> All Conversations </button> <button class="fireside-filter" onclick="filterFireside('research', this)"> Academic Research </button> <button class="fireside-filter" onclick="filterFireside('industry', this)"> Industry </button> <button class="fireside-filter" onclick="filterFireside('policy', this)"> Public Policy </button> </div> <hr> <p class="text-muted"> Our first conversation is coming soon. </p> <p class="text-center text-muted mt-5"> Exploring cybersecurity, one conversation at a time. </p> <script>
+</style> <div class="fireside-intro"> <p> An ongoing series of conversations with researchers, industry practitioners, and policymakers exploring the people, ideas, and technologies shaping the future of cybersecurity. </p> <p> From cryptography and artificial intelligence to digital trust and national security, Fireside Chats seeks to bridge technical knowledge with broader questions about technology and society. </p> </div> <div class="mb-3"> <button class="fireside-filter active" onclick="filterFireside('all', this)"> All Conversations </button> <button class="fireside-filter" onclick="filterFireside('research', this)"> Academic Research </button> <button class="fireside-filter" onclick="filterFireside('industry', this)"> Industry </button> <button class="fireside-filter" onclick="filterFireside('policy', this)"> Public Policy </button> </div> <hr> <div class="fireside-entry" data-category="policy"> <div class="row"> <div class="col-md-3 col-sm-4"> <a href="/fireside/episode-01/"> <img src="/assets/img/fireside/guest01.jpg" alt="Portrait of [Guest Name]" class="fireside-portrait" loading="lazy"> </a> </div> <div class="col-md-9 col-sm-8"> <div class="fireside-meta"> Episode 01  ·  December 2026  ·  Public Policy </div> <h2 class="fireside-title"> <a href="/fireside/episode-01/"> Cybersecurity as a National Security Priority </a> </h2> <div class="fireside-guest"> [Guest Name] </div> <div class="fireside-affiliation"> Cybersecurity Policy Expert <br> [Organization] </div> <p class="fireside-summary"> Examining the intersection of cybersecurity, geopolitics, critical infrastructure, and national security strategy. </p> <div> <span class="fireside-tag"> National Security </span> <span class="fireside-tag"> Cyber Policy </span> <span class="fireside-tag"> Geopolitics </span> </div> <div class="fireside-links"> <a href="/fireside/episode-01/"> Explore Conversation → </a> <a href="https://www.youtube.com/watch?v=VIDEO_ID" target="_blank" rel="noopener noreferrer"> <i class="fab fa-youtube"></i> Watch on YouTube </a> </div> </div> </div> </div> <p class="text-center text-muted mt-5"> Exploring cybersecurity, one conversation at a time. </p> <script>
   function filterFireside(category, button) {
 
     document.querySelectorAll('.fireside-entry')
@@ -621,6 +621,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
+            },},{id: "fireside-cybersecurity-as-a-national-security-priority",
+          title: 'Cybersecurity as a National Security Priority',
+          description: "",
+          section: "Fireside",handler: () => {
+              window.location.href = "/fireside/episode-01/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",

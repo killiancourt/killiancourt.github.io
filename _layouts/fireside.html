@@ -1,0 +1,99 @@
+---
+layout: page
+---
+
+<p class="text-muted">
+  <a href="{{ '/fireside/' | relative_url }}">
+    &larr; All Fireside Chats
+  </a>
+</p>
+
+<p class="text-muted">
+  EPISODE {{ page.episode }}
+  &nbsp;·&nbsp;
+  {{ page.date | date: "%B %d, %Y" }}
+  &nbsp;·&nbsp;
+  {{ page.category_label }}
+</p>
+
+<hr>
+
+<div class="row align-items-start my-4">
+
+  <div class="col-md-3 col-sm-4">
+
+    <img
+      src="{{ page.image | relative_url }}"
+      class="img-fluid rounded"
+      alt="Portrait of {{ page.guest | escape }}">
+
+  </div>
+
+  <div class="col-md-9 col-sm-8">
+
+    <h2>{{ page.guest }}</h2>
+
+    <p class="text-muted">
+      {{ page.position }}<br>
+      {{ page.organization }}
+    </p>
+
+    <p>{{ page.summary }}</p>
+
+    {% if page.guest_website %}
+
+      <a href="{{ page.guest_website }}"
+         target="_blank"
+         rel="noopener noreferrer">
+        Professional Website &rarr;
+      </a>
+
+    {% endif %}
+
+  </div>
+
+</div>
+
+{% if page.youtube_id %}
+
+<h2>Watch the Conversation</h2>
+
+<div style="position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            border-radius: 8px;
+            margin: 20px 0 30px;">
+
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/{{ page.youtube_id }}"
+    title="{{ page.title | escape }}"
+    style="position: absolute;
+           top: 0;
+           left: 0;
+           width: 100%;
+           height: 100%;
+           border: 0;"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write;
+           encrypted-media; gyroscope;
+           picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
+
+</div>
+
+{% endif %}
+
+{{ content }}
+
+<hr>
+
+<p class="text-muted">
+  Hosted by {{ page.host }}<br>
+  Interview date: {{ page.date | date: "%B %d, %Y" }}
+</p>
+
+<a href="{{ '/fireside/' | relative_url }}">
+  &larr; Back to All Conversations
+</a>

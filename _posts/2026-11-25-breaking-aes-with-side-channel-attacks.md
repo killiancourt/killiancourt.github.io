@@ -1,10 +1,11 @@
 ---
 layout: post
-title: Breaking AES Through Side-Channel Attacks
+title: "Breaking AES Through Side-Channel Attacks"
 date: 2026-11-25 12:00:00
 description: Exploring how power consumption can reveal cryptographic keys.
 tags: cybersecurity cryptography AES
 categories: technical-research
+featured: false
 ---
 
 

@@ -2,118 +2,291 @@
 layout: page
 title: fireside chats
 permalink: /fireside/
-description: Conversations at the intersection of cybersecurity, technology, and society.
+description: Conversations Beyond the Firewall
 nav: true
 nav_order: 3
 ---
 
-Through conversations with researchers, industry leaders,
-and policymakers, this series explores emerging challenges
-in cybersecurity, artificial intelligence, digital trust,
-and national security.
+<style>
+  .fireside-intro {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+  }
 
-<hr>
+  .fireside-entry {
+    padding: 2rem 0;
+    border-bottom: 1px solid var(--global-divider-color);
+  }
 
-<div class="fireside-episode">
+  .fireside-portrait {
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    border-radius: 6px;
+  }
 
-<p class="text-muted">
-EPISODE 01 · Deepfake & AI SECURITY
-</p>
+  .fireside-meta {
+    font-size: 0.75rem;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: var(--global-text-color-light);
+    margin-bottom: 0.6rem;
+  }
 
-<h2>Securing the Future of Artificial Intelligence</h2>
+  .fireside-title {
+    font-size: 1.55rem;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 0.8rem;
+  }
 
-<div class="row align-items-start mt-4 mb-4">
+  .fireside-guest {
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+  }
 
-  <div class="col-md-3 col-5">
+  .fireside-affiliation {
+    font-size: 0.9rem;
+    color: var(--global-text-color-light);
+    margin-bottom: 1rem;
+  }
 
-    <img
-      src="{{ '/assets/img/fireside/guest01.jpg' | relative_url }}"
-      class="img-fluid rounded z-depth-1"
-      alt="Guest portrait">
+  .fireside-summary {
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
 
-  </div>
+  .fireside-tag {
+    display: inline-block;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 4px;
+    padding: 3px 9px;
+    margin: 0 4px 5px 0;
+    font-size: 0.75rem;
+  }
 
-  <div class="col-md-9 col-7">
+  .fireside-links {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+  }
 
-    <h3>Suresh Krishnan</h3>
+  .fireside-links a {
+    margin-right: 1.2rem;
+  }
 
-    <p class="text-muted">
-      Professor of Computer Science<br>
-      [University / Organization]
-    </p>
+  .fireside-filter {
+    cursor: pointer;
+    border: 1px solid var(--global-divider-color);
+    background: transparent;
+    color: var(--global-text-color);
+    padding: 6px 14px;
+    border-radius: 4px;
+    margin: 0 5px 8px 0;
+    font-size: 0.85rem;
+  }
 
-    <h5>About the Guest</h5>
+  .fireside-filter.active {
+    background: var(--global-theme-color);
+    border-color: var(--global-theme-color);
+    color: white;
+  }
 
-    <p>
-      Dr. [Name] specializes in artificial intelligence,
-      cybersecurity, and trustworthy computing.
-      Their research explores the security challenges
-      associated with emerging technologies.
-    </p>
+  @media (max-width: 767px) {
+    .fireside-portrait {
+      max-width: 180px;
+      margin-bottom: 1rem;
+    }
 
-    <a href="https://www.linkedin.com/in/skkrishn/"
-       target="_blank"
-       rel="noopener noreferrer">
-      Professional Website
-    </a>
+    .fireside-title {
+      font-size: 1.3rem;
+    }
+  }
+</style>
 
-  </div>
-
-</div>
-
-<h4>About the Conversation</h4>
-
-<p>
-  In this episode, we explore the evolving relationship
-  between artificial intelligence and cybersecurity,
-  discussing both the opportunities AI presents for
-  defenders and the emerging risks it introduces.
-</p>
-
-<div style="position: relative;
-            padding-bottom: 56.25%;
-            height: 0;
-            overflow: hidden;
-            border-radius: 8px;
-            margin-top: 20px;
-            margin-bottom: 25px;">
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RUc9yNR8Jg4?si=dCFxXrR2daAFHxv4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
-</div>
-
-<h4>Key Discussion Topics</h4>
-
-<ul>
-  <li>Emerging security risks in artificial intelligence</li>
-  <li>The role of AI in cyber defense</li>
-  <li>Future directions in cybersecurity research</li>
-</ul>
-
-<h4>Memorable Insight</h4>
-
-<blockquote>
+<div class="fireside-intro">
   <p>
-    "[Insert a memorable quotation from the interview.]"
+    An ongoing series of conversations with researchers,
+    industry practitioners, and policymakers exploring
+    the people, ideas, and technologies shaping the
+    future of cybersecurity.
   </p>
-  <footer>— Dr. [Guest Name]</footer>
-</blockquote>
 
-<h4>Personal Reflection</h4>
+  <p>
+    From cryptography and artificial intelligence to
+    digital trust and national security, Fireside Chats
+    seeks to bridge technical knowledge with broader
+    questions about technology and society.
+  </p>
+</div>
 
-<p>
-  Describe what you learned from the conversation,
-  how it challenged your existing understanding,
-  and what questions you would like to investigate further.
-</p>
+<!-- Category filters -->
 
-<p class="text-muted">
-  Interview date: November 2026<br>
-  Hosted by: [Host Name]
-</p>
+<div class="mb-3">
+
+  <button class="fireside-filter active"
+          onclick="filterFireside('all', this)">
+    All Conversations
+  </button>
+
+  <button class="fireside-filter"
+          onclick="filterFireside('research', this)">
+    Academic Research
+  </button>
+
+  <button class="fireside-filter"
+          onclick="filterFireside('industry', this)">
+    Industry
+  </button>
+
+  <button class="fireside-filter"
+          onclick="filterFireside('policy', this)">
+    Public Policy
+  </button>
 
 </div>
 
 <hr>
+
+<!-- Automatically generate interview entries -->
+
+{% assign interviews = site.fireside | sort: "date" | reverse %}
+
+{% for interview in interviews %}
+
+<div class="fireside-entry"
+     data-category="{{ interview.category }}">
+
+  <div class="row">
+
+    <!-- Guest portrait -->
+
+    <div class="col-md-3 col-sm-4">
+
+      <a href="{{ interview.url | relative_url }}">
+
+        <img
+          src="{{ interview.image | relative_url }}"
+          alt="Portrait of {{ interview.guest | escape }}"
+          class="fireside-portrait"
+          loading="lazy">
+
+      </a>
+
+    </div>
+
+    <!-- Interview information -->
+
+    <div class="col-md-9 col-sm-8">
+
+      <div class="fireside-meta">
+        Episode {{ interview.episode }}
+        &nbsp;·&nbsp;
+        {{ interview.date | date: "%B %Y" }}
+        &nbsp;·&nbsp;
+        {{ interview.category_label }}
+      </div>
+
+      <h2 class="fireside-title">
+
+        <a href="{{ interview.url | relative_url }}">
+          {{ interview.title }}
+        </a>
+
+      </h2>
+
+      <div class="fireside-guest">
+        {{ interview.guest }}
+      </div>
+
+      <div class="fireside-affiliation">
+        {{ interview.position }}
+        <br>
+        {{ interview.organization }}
+      </div>
+
+      <p class="fireside-summary">
+        {{ interview.summary }}
+      </p>
+
+      <!-- Topic tags -->
+
+      <div>
+
+        {% for tag in interview.tags %}
+
+          <span class="fireside-tag">
+            {{ tag }}
+          </span>
+
+        {% endfor %}
+
+      </div>
+
+      <!-- Episode links -->
+
+      <div class="fireside-links">
+
+        <a href="{{ interview.url | relative_url }}">
+          Explore Conversation &rarr;
+        </a>
+
+        {% if interview.youtube_id %}
+
+          <a
+            href="https://www.youtube.com/watch?v={{ interview.youtube_id }}"
+            target="_blank"
+            rel="noopener noreferrer">
+
+            <i class="fab fa-youtube"></i>
+            Watch on YouTube
+
+          </a>
+
+        {% endif %}
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+{% endfor %}
+
+{% if interviews.size == 0 %}
+
+<p class="text-muted">
+  Our first conversation is coming soon.
+</p>
+
+{% endif %}
+
+<p class="text-center text-muted mt-5">
+  Exploring cybersecurity, one conversation at a time.
+</p>
+
+<script>
+  function filterFireside(category, button) {
+
+    document.querySelectorAll('.fireside-entry')
+      .forEach(function(entry) {
+
+        entry.style.display =
+          category === 'all' ||
+          entry.dataset.category === category
+            ? ''
+            : 'none';
+
+      });
+
+    document.querySelectorAll('.fireside-filter')
+      .forEach(function(item) {
+        item.classList.remove('active');
+      });
+
+    button.classList.add('active');
+  }
+</script>

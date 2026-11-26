@@ -12,7 +12,7 @@ category: policy
 category_label: "Public Policy"
 
 image: /assets/img/fireside/guest01.jpg
-youtube_id: "VIDEO_ID"
+youtube_id: "RUc9yNR8Jg4"
 
 summary: "Examining the intersection of cybersecurity, geopolitics, critical infrastructure, and national security strategy."
 

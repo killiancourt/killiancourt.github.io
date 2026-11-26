@@ -209,7 +209,10 @@ collections:
     output: true
   teachings:
     output: true
-
+  fireside:
+    output: true
+    permalink: /fireside/:name/
+    
 # -----------------------------------------------------------------------------
 # Jekyll settings
 # -----------------------------------------------------------------------------

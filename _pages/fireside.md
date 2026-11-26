@@ -17,7 +17,7 @@ and national security.
 <div class="fireside-episode">
 
 <p class="text-muted">
-EPISODE 01 · AI & SECURITY
+EPISODE 01 · Deepfake & AI SECURITY
 </p>
 
 <h2>Securing the Future of Artificial Intelligence</h2>
@@ -35,7 +35,7 @@ EPISODE 01 · AI & SECURITY
 
   <div class="col-md-9 col-7">
 
-    <h3>Dr. [Guest Name]</h3>
+    <h3>Suresh Krishnan</h3>
 
     <p class="text-muted">
       Professor of Computer Science<br>
@@ -51,7 +51,7 @@ EPISODE 01 · AI & SECURITY
       associated with emerging technologies.
     </p>
 
-    <a href="GUEST_WEBSITE_URL"
+    <a href="https://www.linkedin.com/in/skkrishn/"
        target="_blank"
        rel="noopener noreferrer">
       Professional Website
@@ -79,7 +79,7 @@ EPISODE 01 · AI & SECURITY
             margin-bottom: 25px;">
 
   <iframe
-    src="https://www.youtube-nocookie.com/embed/VIDEO_ID"
+    src="https://youtu.be/RUc9yNR8Jg4?si=czCQAdEMfdNgdWTo"
     title="Fireside Chat Episode 01"
     style="position: absolute;
            top: 0;

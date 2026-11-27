@@ -1,50 +1,51 @@
 cv:
   name: Ethan Wang
   label: Student | Cybersecurity Enthusiast
-  email: einstein@example.com
+  email: ethanw2029@headroyce.org
   location: San Francisco Bay Area
+  website: https://killiancourt.github.io
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  # summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
 
-  social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
+  #social_networks:
+  #  - network: X
+  #    username: AlbertEinstein
+  #  - network: GitHub
+  #    username: example
+  #  - network: LinkedIn
+  #    username: example
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
+    street: 4315 Lincoln Avenue
+    city: Oakland
     region: California
-    postalCode: CA 94115
+    postalCode: CA 94602
     countryCode: US
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
+      - institution: Head-Royce School
+        location: Oakland, California
+        url: https://www.headroyce.org/
+        area: High School Education
+        #studyType: PhD
+        #start_date: 1900
+        #end_date: 1905
+        #score: ""
+        #courses: "Theory of Relativity"
+        #highlights:
+        #  - Description 1.
+        #  - Description 2.
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+   #  - institution: Eidgenössische Technische Hochschule
+   #    location: Zurich, Switzerland
+   #    area: Physics
+   #    studyType: Federal teaching diploma
+   #     start_date: 1896
+   #     end_date: 1900
+   #     highlights:
+   #       - Description 1.
+   #       - Description 2.
 
     Experience:
       - company: Institute for Advanced Study, Princeton University

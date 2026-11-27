@@ -9,7 +9,7 @@ guest: "Suresh Krishna"
 position: "Deepfake and AI Security Expert"
 organization: "Visa Inc"
 
-category: AI Security
+category: industry
 category_label: "AI Security"
 
 image: /assets/img/fireside/guest01.jpg

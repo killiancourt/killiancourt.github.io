@@ -1,9 +1,9 @@
 ---
 layout: fireside
+title: "Cybersecurity as a National Security Priority"
 permalink: /fireside/episode-01/
 episode: "01"
-title: "Cybersecurity as a National Security Priority"
-date: 2026-12-01
+date: 2026-11-26
 
 guest: "Suresh Krishna"
 position: "Deepfake and AI Security Expert"

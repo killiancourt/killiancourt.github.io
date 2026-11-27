@@ -4,7 +4,7 @@ title: fireside chats
 permalink: /fireside/
 description: Conversations Beyond the Firewall
 nav: true
-nav_order: 3
+nav_order: 2
 ---
 
 <style>

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-After Round 2 of the CyberPatriot XIX Open Division, Next Gen Cyber Club ranked 42nd overall (top 2.5% of 2,000+ teams).
+Placing in the top 2.5% of over 2,000 teams, Next Gen Cyber Club secured the 42nd spot overall in the Open Division following Round 2 of the CyberPatriot XIX competition

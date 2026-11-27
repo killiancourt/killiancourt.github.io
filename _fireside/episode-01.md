@@ -1,15 +1,16 @@
 ---
 layout: fireside
+permalink: /fireside/episode-01/
 episode: "01"
 title: "Cybersecurity as a National Security Priority"
 date: 2026-12-01
 
-guest: "[Guest Name]"
-position: "Cybersecurity Policy Expert"
-organization: "[Organization]"
+guest: "Suresh Krishna"
+position: "Deepfake and AI Security Expert"
+organization: "Visa Inc"
 
-category: policy
-category_label: "Public Policy"
+category: AI Security
+category_label: "AI Security"
 
 image: /assets/img/fireside/guest01.jpg
 youtube_id: "RUc9yNR8Jg4"

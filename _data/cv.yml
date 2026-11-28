@@ -37,17 +37,7 @@ cv:
         #  - Description 1.
         #  - Description 2.
 
-   #  - institution: Eidgenössische Technische Hochschule
-   #    location: Zurich, Switzerland
-   #    area: Physics
-   #    studyType: Federal teaching diploma
-   #     start_date: 1896
-   #     end_date: 1900
-   #     highlights:
-   #       - Description 1.
-   #       - Description 2.
-
-    Experience:
+      Experience:
       - company: Institute for Advanced Study, Princeton University
         position: Professor of Theoretical Physics
         location: Princeton University, NJ
@@ -156,7 +146,6 @@ cv:
         keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
 
     Certificates:
-
       - name: Introduction to Computer Programming
         date: 2024-08-26
         issuer: University of London (Coursera)

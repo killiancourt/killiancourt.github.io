@@ -13,6 +13,15 @@ cv:
         start_date: "2025"
         end_date: "2029"
 
+    Competitions:
+      - name: CyberPatriot XIX (2026-2027)
+        highlights:
+          - "Advanced to the Platinum Tier, the highest competitive tier."
+          - "Ranked 42nd nationally out of over 2,000 Open Division teams based on cumulative scores after Round 2 (top 2.1%)."
+          - Windows and Linux system hardening.
+          - Network security and vulnerability analysis.
+          - Digital forensics and security investigation.
+          
     Certificates:
       - name: Introduction to Computer Programming
         date: "2024-08-26"

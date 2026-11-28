@@ -11,6 +11,27 @@ cv:
         area: High School Education
         start_date: "2025"
         end_date: "2029"
+        
+    Experience:
+      - company: Zero Day Journal
+        position: Founder and Technical Writer
+        start_date: "2025-09"
+        end_date: present
+        summary: "An independent cybersecurity blog exploring technical research, emerging threats, and the broader implications of cybersecurity."
+        highlights:
+          - Research and document cybersecurity concepts through hands-on experiments and technical investigations.
+          - Explore cryptography, AI security, digital forensics, and emerging cyber threats.
+          - Translate complex technical concepts into accessible articles.
+
+      - company: "Fireside Chats - Conversations Beyond the Firewall"
+        position: Co-Founder and Interview Host
+        start_date: "2026-11"
+        end_date: present
+        summary: "An interview series exploring cybersecurity through conversations with academic researchers, industry practitioners, and policymakers."
+        highlights:
+          - Research emerging cybersecurity topics and prepare interview questions.
+          - Engage cybersecurity experts in discussions about technology, security, and society.
+          - Share expert perspectives and insights with the broader community.
 
     Awards:
       - title: "CyberPatriot XIX (2026-2027) – Platinum Tier"

@@ -17,34 +17,34 @@ cv:
       - name: Introduction to Computer Programming
         date: "2024-08-26"
         issuer: University of London (Coursera)
-        icon: fa-solid fa-certificate
+        #icon: fa-solid fa-certificate
 
       - name: How Computers Work
         date: "2024-10-07"
         issuer: University of London (Coursera)
-        icon: fa-solid fa-certificate
+        #icon: fa-solid fa-certificate
 
       - name: Mathematics for Computer Science
         date: "2024-12-23"
         issuer: University of London (Coursera)
-        icon: fa-solid fa-certificate
+        #icon: fa-solid fa-certificate
 
       - name: Introduction to Computer Science and Programming
         date: "2024-12-23"
         issuer: University of London (Coursera)
-        icon: fa-solid fa-certificate
+        #icon: fa-solid fa-certificate
 
       - name: Learn to Program - The Fundamentals
         date: "2025-01-02"
         issuer: University of Toronto (Coursera)
-        icon: fa-solid fa-certificate
+        #icon: fa-solid fa-certificate
 
       - name: Learn to Program - Crafting Quality Code
         date: "2025-04-12"
         issuer: University of Toronto (Coursera)
-        icon: fa-solid fa-certificate
+        #icon: fa-solid fa-certificate
 
       - name: Introduction to Python Programming
         date: "2025-07-18"
         issuer: University of Pennsylvania (Coursera)
-        icon: fa-solid fa-certificate
+        #icon: fa-solid fa-certificate

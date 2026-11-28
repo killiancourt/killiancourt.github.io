@@ -43,7 +43,29 @@ cv:
           - Research emerging cybersecurity topics and prepare interview questions.
           - Engage cybersecurity experts in discussions about technology, security, and society.
           - Share expert perspectives and insights with the broader community.
-        
+
+      - company: Head-Royce Cybersecurity Club
+        position: Founder and President
+        location: Oakland, California
+        start_date: "2024-09"
+        end_date: present
+        summary: "Founded a student-led organization dedicated to promoting cybersecurity education and hands-on technical exploration."
+        highlights:
+          - Lead club meetings and develop educational activities covering cybersecurity fundamentals and emerging threats.
+          - Design hands-on labs involving cryptography, network security, vulnerability analysis, and digital forensics.
+          - Foster a collaborative learning environment for students interested in cybersecurity.
+
+      - company: Next Gen Cyber Club
+        position: Member and Cybersecurity Competitor
+        start_date: "2025-08"
+        end_date: present
+        summary: "A student-led cybersecurity organization dedicated to competitive cyber defense, community education, and engagement with cybersecurity professionals."
+        highlights:
+          - "Compete in CyberPatriot, developing practical skills in system hardening, vulnerability assessment, network security, and digital forensics."
+          - "Promote cybersecurity awareness through community outreach and educational activities at city fairs and senior living communities."
+          - "Educate community members on online safety, digital privacy, phishing prevention, and emerging cyber threats."
+          - "Co-host Fireside Chats with cybersecurity researchers, industry practitioners, and policymakers to explore emerging technologies and their broader societal implications."
+          
     Awards:
       - title: "CyberPatriot XIX (2026-2027) – Platinum Tier"
         authors:

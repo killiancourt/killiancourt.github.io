@@ -26,7 +26,7 @@ cv:
       
       - company: Zero Day Journal
         position: Founder and Technical Writer
-        start_date: "2025-09"
+        start_date: "2025-01"
         end_date: present
         summary: "An independent cybersecurity blog exploring technical research, emerging threats, and the broader implications of cybersecurity."
         highlights:
@@ -36,7 +36,7 @@ cv:
 
       - company: "Fireside Chats - Conversations Beyond the Firewall"
         position: Co-Founder and Interview Host
-        start_date: "2026-11"
+        start_date: "2026-07"
         end_date: present
         summary: "An interview series exploring cybersecurity through conversations with academic researchers, industry practitioners, and policymakers."
         highlights:

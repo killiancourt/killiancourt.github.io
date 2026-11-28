@@ -1,6 +1,6 @@
 cv:
   name: Ethan Wang
-  email: ethanw2029@headroyce.org
+  email: ethanwanghr@gmail.com
   location: San Francisco Bay Area
   website: https://killiancourt.github.io
 
@@ -19,9 +19,9 @@ cv:
         end_date: present
         summary: "National Youth Cyber Defense Competition organized by the Air & Space Forces Association."
         highlights:
-          - Perform vulnerability assessments and system hardening across Windows and Linux environments.
+          - Perform vulnerability assessments and system hardening across different Windows and Linux environments.
           - Investigate security incidents through digital forensics and log analysis.
-          - Configure network security controls and identify system misconfigurations.
+          - Configure network security controls and identify system misconfigurations, and remove hacking tools. 
           - Collaborate with teammates to secure simulated enterprise environments under time constraints.
       
       - company: Zero Day Journal
@@ -30,9 +30,9 @@ cv:
         end_date: present
         summary: "An independent cybersecurity blog exploring technical research, emerging threats, and the broader implications of cybersecurity."
         highlights:
-          - Research and document cybersecurity concepts through hands-on experiments and technical investigations.
+          - Research and document cybersecurity concepts through hands-on labs and technical investigations.
           - Explore cryptography, AI security, digital forensics, and emerging cyber threats.
-          - Translate complex technical concepts into accessible articles.
+          - Translate complex technical concepts into accessible, easy to read articles.
 
       - company: "Fireside Chats - Conversations Beyond the Firewall"
         position: Co-Founder and Interview Host
@@ -42,7 +42,7 @@ cv:
         highlights:
           - Research emerging cybersecurity topics and prepare interview questions.
           - Engage cybersecurity experts in discussions about technology, security, and society.
-          - Share expert perspectives and insights with the broader community.
+          - Share personal perspectives and insights with the broader community.
 
       - company: Head-Royce Cybersecurity Club
         position: Founder and President
@@ -53,7 +53,7 @@ cv:
         highlights:
           - Lead club meetings and develop educational activities covering cybersecurity fundamentals and emerging threats.
           - Design hands-on labs involving cryptography, network security, vulnerability analysis, and digital forensics.
-          - Foster a collaborative learning environment for students interested in cybersecurity.
+          - Foster a collaborative learning environment for 30+ students interested in cybersecurity.
 
       - company: Next Gen Cyber Club
         position: Member and Cybersecurity Competitor
@@ -63,7 +63,7 @@ cv:
         highlights:
           - "Compete in CyberPatriot, developing practical skills in system hardening, vulnerability assessment, network security, and digital forensics."
           - "Promote cybersecurity awareness through community outreach and educational activities at city fairs and senior living communities."
-          - "Educate community members on online safety, digital privacy, phishing prevention, and emerging cyber threats."
+          - "Educate community members on online safety, digital privacy, phishing prevention, and emerging cyber threats through in-person lectures."
           - "Co-host Fireside Chats with cybersecurity researchers, industry practitioners, and policymakers to explore emerging technologies and their broader societal implications."
           
     Awards:

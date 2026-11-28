@@ -1,6 +1,6 @@
 cv:
   name: Ethan Wang
-  label: "Student, Cybersecurity Enthusiast"
+  title: "Student, Cybersecurity Enthusiast"
   email: ethanw2029@headroyce.org
   location: San Francisco Bay Area
   website: https://killiancourt.github.io
@@ -15,6 +15,8 @@ cv:
 
     Awards:
       - title: "CyberPatriot XIX (2026-2027) – Platinum Tier"
+        authors:
+          - "Air & Space Forces Association"
         date: "2026-11"
         awarder: Air & Space Forces Association
         url: https://www.uscyberpatriot.org/

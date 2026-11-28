@@ -33,6 +33,17 @@ cv:
           - Engage cybersecurity experts in discussions about technology, security, and society.
           - Share expert perspectives and insights with the broader community.
 
+      - company: CyberPatriot
+        position: Cybersecurity Competitor
+        start_date: "2026-08"
+        end_date: present
+        summary: "National Youth Cyber Defense Competition organized by the Air & Space Forces Association."
+        highlights:
+          - Perform vulnerability assessments and system hardening across Windows and Linux environments.
+          - Investigate security incidents through digital forensics and log analysis.
+          - Configure network security controls and identify system misconfigurations.
+          - Collaborate with teammates to secure simulated enterprise environments under time constraints.
+          
     Awards:
       - title: "CyberPatriot XIX (2026-2027) – Platinum Tier"
         authors:

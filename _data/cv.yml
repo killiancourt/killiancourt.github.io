@@ -37,7 +37,7 @@ cv:
         #  - Description 1.
         #  - Description 2.
 
-      Experience:
+    Experience:
       - company: Institute for Advanced Study, Princeton University
         position: Professor of Theoretical Physics
         location: Princeton University, NJ

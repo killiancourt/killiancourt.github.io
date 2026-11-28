@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Exploring cybersecurity at the intersection of technology, people, and society.
+subtitle: '<span style="color: var(--global-theme-color);">Exploring cybersecurity at the intersection of technology, people, and society.</span>'
 
 profile:
   align: right
